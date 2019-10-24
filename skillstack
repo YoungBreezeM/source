@@ -1,0 +1,173 @@
+|-前端
+  |-html
+  |-css
+  |-css3
+  |-html5
+  |-canvas
+    |-svg
+    |-local Db
+  |-UI框架
+    |-bootstrap3
+    |-boorstrap4
+    |-element ui
+  |-js
+    |-js DOM
+    |-ajax
+    |-jquery
+    |-正则表达
+    |-Json
+    |-es6
+  |-js 应用框架
+    |-vue
+    |-vue cli
+    |-vue router
+    |-vue ajax
+    |-微信小程序
+    |-echarts
+  |-后台
+    |-nodejs
+      |-重要知识
+      |-异步，进程，线程区别
+      |-webscokit
+      |-爬虫 (未学)
+      |- npm
+      |-nodejs api
+      |-c++ 拓展插件编写
+      |-nodejs 多线程
+      |-规范
+        |-代码规范
+        |-Rustful接口设计规范
+      |-web框架
+        |-express
+        |-nest.js *
+        |-koa *
+        |-egg *
+      |-node 工具
+        |-压力测试工具
+          |-abc
+        |-代码打包工具
+          |-webpack 4.0
+          |-jxc
+      |-node 转译器
+        |-typescript
+          |-typeing 包管理器
+        |-bundel
+    |-java
+      |-jsp
+      |-servlet
+      |-javaBeam
+      |-java EE
+      |-spring (未学)
+      |-spring boot (未学)
+|-运维
+  |-网络协议
+    |-http
+    |-http2
+    |-tcp/ip
+    |-smtp
+    |-https
+    |-Arp
+    |-Imcp
+  |-web 服务器容器
+    |-apache
+    |-tomcat
+    |-nginx
+  |-pm2 进程守护，性能优化，负载均衡
+    |-process 进程绑定调用
+    |-cluster 集群进程程序
+    |-垃圾回收
+    |-进程守护，监听进程运行状态，清理内存
+  |-linux
+    |-centos
+    |-ubantu
+  |-分布式系统
+    |-微服务
+      |-docker 容器
+  |-集群系统
+|-架构
+  |-软件工程
+  |-V8引擎
+  |-数据库设计
+|-数据库
+  |-mysql
+    |-数据库连接查询
+    |-聚合
+    |-索引
+    |-事物
+    |-数据库设计
+      |- 第一范式
+      |- 第二范式
+      |- 第三范式
+  |-mongodb
+    |-分片
+    |-副本
+    |-数据关联
+    |-全文检索
+    |-索引
+    |-优化查询
+  |-redis
+    |-数据类型认识
+|-安全
+  |-xss 工具
+  |-md5 加密
+  |-ssh 证书部署
+  |-sql注入
+  |-websokit
+  |-http2
+  |-接口安全
+    |- Rustful 设计规范
+    |- 跨域
+    |-token 认证
+|-编程基础
+  |-c
+  |-c++
+    |-node-gyp 编译node插件
+  |-数据结构
+    |-基础算法
+    |-数据类型结构，特点
+  |-设计模式
+    |-见张镕铭的《设计模式》
+  |-刷题
+|-AI人工智能
+  |-opencv 库
+  |-node-opencv
+  |-百度智能云 node sdk 接口
+  |-数莓派开发板 *
+|-开发工具
+  |-webstorm
+  |-vscode
+  |-eclipse
+  |-idea
+|-学习工具
+  |-翻墙工具
+    |-蓝灯笼、赛风、Trojan、Brook、v2ray、SSR、WuJie、FreeGate、赛风、SkyZip
+    |-谷歌上网助手
+  |-百度网盘破解工具
+    |-盘dowloads
+    |-enfi
+    |-谷歌
+|-开发项目技术选型
+  |-『鞋柜』微信小程序技术集合
+    |- 微信小程序APi
+    |- nodejs
+    |- express
+    |- mysql
+    |- token
+    |- mongodb
+    |- 第三方接口
+  |- 电业局项目
+    |- echarts
+    |- vue
+    |- vue cli
+    |- vue router
+    |- vue ajax
+    |- element ui
+    |- webpack 4.0
+    |-java
+      |-javaweb
+    |-mysql
+|-阅读优质资料
+  |-官方文档（大佬讲解文档）
+  |-《js高级程序设计》
+  |- 张镕铭《设计模式》
+  |-《深入浅出》
