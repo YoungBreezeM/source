@@ -10,6 +10,8 @@
     |-bootstrap3
     |-boorstrap4
     |-element ui
+    |-layui
+    |-vue-element-admin
   |-js
     |-js DOM
     |-ajax
@@ -17,6 +19,7 @@
     |-正则表达
     |-Json
     |-es6
+    |-es7
   |-js 应用框架
     |-vue
     |-vue cli
@@ -27,14 +30,31 @@
   |-后台
     |-nodejs
       |-重要知识
-      |-异步，进程，线程区别
-      |-webscokit
-      |-爬虫 (未学)
-      |- npm
-      |-nodejs api
-      |-c++ 拓展插件编写
-      |-nodejs 多线程
-      |-规范
+        |-异步，进程，线程区别
+        |-v8 引擎
+        |-v8 GC 垃圾处理 
+        |-c++ 拓展插件编写
+        |-nodejs 多线程
+        |- npm
+        |-nodejs api
+     |-nodejs web服务器
+        |-http
+        |-mysql
+        |-fs
+     |-nodejs 聊天服务器
+        |- webscokit
+        |- redis
+     |-node爬虫
+        |-http
+        |-cheerio
+        |-iconv-lite
+     |-图像处理
+      |-canvas
+     |-流媒体服务器（直播系统）
+      |-node-media-server
+      |-fluent-ffmpeg
+      |-ffmpeg (应用)
+     |-规范
         |-代码规范
         |-Rustful接口设计规范
       |-web框架
@@ -50,7 +70,9 @@
           |-jxc
       |-node 转译器
         |-typescript
-          |-typeing 包管理器
+          |-typings 包管理器(已过时)
+          |-@types/node
+          |-ts-node
         |-bundel
     |-java
       |-jsp
@@ -68,6 +90,7 @@
     |-https
     |-Arp
     |-Imcp
+    |-rtmp
   |-web 服务器容器
     |-apache
     |-tomcat
@@ -76,6 +99,7 @@
     |-process 进程绑定调用
     |-cluster 集群进程程序
     |-垃圾回收
+      |-内存泄漏
     |-进程守护，监听进程运行状态，清理内存
   |-linux
     |-centos
@@ -84,6 +108,7 @@
     |-微服务
       |-docker 容器
   |-集群系统
+    |-process child
 |-架构
   |-软件工程
   |-V8引擎
@@ -146,6 +171,13 @@
     |-盘dowloads
     |-enfi
     |-谷歌
+    |-油猴
+  |-视频编码工具
+    |-ffmpeg 
+  |-图像处理工具
+    |-canvas
+|-版本控制工具
+  |-Git
 |-开发项目技术选型
   |-『鞋柜』微信小程序技术集合
     |- 微信小程序APi
@@ -171,3 +203,4 @@
   |-《js高级程序设计》
   |- 张镕铭《设计模式》
   |-《深入浅出》
+  |-《易经》

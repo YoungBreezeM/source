@@ -27,9 +27,18 @@ sudo apt-get install cmake
 sudo apt-get install build-essential libgtk2.0-dev libavcodec-dev libavformat-dev libjpeg.dev libtiff4.dev libswscale-dev libjasper-dev
 ```
 
-
-
-## 1.4 执行cmake
+> #注意这边libjasper-dev 可能会安装失败导致cmake 的时候java模块编译失败
+>
+> ```
+> sudo add-apt-repository "deb http://security.ubuntu.com/ubuntu xenial-security main"
+> sudo apt update
+> sudo apt install libjasper1 libjasper-dev
+> ```
+>
+> 一定要注意这个依赖是否安装成功否着cmake 编译一定要注意
+>
+> ## 1.4 执行cmake
+>
 
 ```cpp
 /* 新建编译文件夹*/
@@ -71,7 +80,7 @@ sudo gedit /etc/ld.so.conf
 
 在最下面加一个
 
-include /usr/local/lib
+usr/local/lib
 
 运行
 
