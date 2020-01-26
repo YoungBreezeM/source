@@ -65,6 +65,7 @@
       |-node 工具
         |-压力测试工具
           |-abc
+          |-postman
         |-代码打包工具
           |-webpack 4.0
           |-jxc
@@ -73,14 +74,17 @@
           |-typings 包管理器(已过时)
           |-@types/node
           |-ts-node
+          |-typeorm 数据库切换框架
         |-bundel
     |-java
       |-jsp
       |-servlet
-      |-javaBeam
-      |-java EE
-      |-spring (未学)
-      |-spring boot (未学)
+      |-struct
+      |-spring 
+      |-spring boot 
+      |-hibernate
+      |-mybatis
+      |-maven
 |-运维
   |-网络协议
     |-http
@@ -90,7 +94,7 @@
     |-https
     |-Arp
     |-Imcp
-    |-rtmp
+    |-ssh
   |-web 服务器容器
     |-apache
     |-tomcat
@@ -166,6 +170,7 @@
 |-学习工具
   |-翻墙工具
     |-蓝灯笼、赛风、Trojan、Brook、v2ray、SSR、WuJie、FreeGate、赛风、SkyZip
+    |-yandex
     |-谷歌上网助手
   |-百度网盘破解工具
     |-盘dowloads
@@ -195,10 +200,22 @@
     |- webpack 4.0
     |-java
       |-javaweb
+      |-hibernate
+      |-jwt
     |-mysql
 |-阅读优质资料
-  |-官方文档（大佬讲解文档）
-  |-《js高级程序设计》
-  |- 张镕铭《设计模式》
-  |-《深入浅出》
-  |-《易经》
+  |-通用资料
+    |-官方文档（大佬讲解文档）
+  |-js\node  系列文档
+    |-《js高级程序设计》
+    |- 张镕铭《设计模式》
+    |-《深入浅出》
+  |-java 系列
+    |-java编程思想
+    |-深入了解java 虚拟机
+    |- spring 实战
+  |-linux 
+    |-linux 私房菜
+  |-mysql
+    |-mysql 必知必会
+  |-c++ plus primer 

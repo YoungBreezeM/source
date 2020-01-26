@@ -18,3 +18,12 @@ arm_freq=2000
 
 应用开发
 
+#解决centos7源错误
+
+https://juejin.im/post/5d53d5ece51d4561e224a314
+
+
+
+idea 激活码
+
+http://idea.medeming.com/jetbrains/

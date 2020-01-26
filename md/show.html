@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <style type="text/css">
+        .fly{
+            width:200px;
+            height:300px;
+            background:#99ff99;
+            margin:10px;
+            float: left;
+
+        }
+        #show{
+            margin: auto;
+            width: 60%;
+            height: 300px;
+            background: #0c6690;
+            overflow: hidden;
+        }
+        .title{
+            height: 100px;
+            width:100px;
+            background:red;
+            position: relative;
+            top:150px;
+        }
+    </style>
+
+    <script type="text/javascript">
+        <!--
+        $(function () {
+            let status = false;
+            var $win= $(document.body),
+                left= ($win.width()-100)/2;
+            $(".fly")
+                .on("click",function () {
+                    console.log(status)
+                    let index = $(this).index()
+                    if(!status){
+                        $('.fly').each(function () {
+                            if(index!=$(this).index()){
+                                $(this).hide();
+                            }
+                        })
+                        $(this).animate({
+                            top:0,
+                            left:0,
+                            width:'100%',
+                            height:'300px',
+                        })
+                        $('.title').animate({
+                            left:'500px',
+                            top:'50px',
+                            width:'150px',
+                            height:'150px'
+                        });
+                    }else {
+                        $('.fly').each(function () {
+                            if(index!=$(this).index()){
+                                $(this).show();
+                            }
+                        })
+                        $(this).animate({
+                            top:0,
+                            left:0,
+                            width:'200px',
+                            height:'300px',
+                        })
+                        $('.title').animate({
+                            left:'0px',
+                            top:'150px',
+                            width:'100px',
+                            height:'100px'
+                        });
+                    }
+                    status =!status
+                });
+        });
+
+
+        //-->
+    </script>
+
+</head>
+<div id="show">
+    <div class="fly" style="background: url('./bg.jpg')">
+        <p class="title">nihao</p>
+    </div>
+    <div class="fly"></div>
+</div>
+
+</body>
+</html>

@@ -4,3 +4,39 @@ sudo systemctl stop tomcat8
 
 ssh-keygen -R "39.108.99.65"  
 
+cd /docker run -d -v /usr/local/src/webapps/yqf.war:/usr/local/apache-tomcat-7.0.96/webapps/yqf.war -p 8080:8080 ytomcat/centos7-jdk8-tomcat
+nextclould
+
+docker run -d --restart=always --name mysnextcloud -p 80:80 -v /root/nextcloud:/data docker.io/nextcloud
+
+740efdaecf22
+
+	
+docker exec -it 740efdaecf22 /bin/bash
+
+vim /etc/docker/daemon.json
+
+{
+  "debug": true,
+  "experimental": false,
+  "registry-mirrors": [
+    "https://qm4b4rhz.mirror.aliyuncs.com",
+    "https://registry.docker-cn.com"
+  ]
+}
+
+version: '2'
+services:
+  app:  
+
+​    image: nextcloud
+
+​    restart: always
+
+​    ports:
+
+​      - 80:80
+
+​    volumes:
+
+​      - /home/data/nextcloud/www:/var/www/html

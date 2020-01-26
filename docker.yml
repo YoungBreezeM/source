@@ -1,0 +1,46 @@
+version: '2'  
+services:  
+  db:  
+    container_name: cloud_db  
+    image: mysql:5.7
+    volumes:  
+      - "./data/cloud/mysql:/var/lib/mysql"  
+    restart: always  
+    environment:  
+      MYSQL_ROOT_PASSWORD: mysql_root_pwd  #mysql root用户密码，nextcloud后续初始化需要使用。
+      MYSQL_DATABASE: nextcloud   #专为nextcloud新建的数据库，nextcloud后续初始化需要使用。
+  app:  
+    container_name: cloud_app
+    depends_on:  
+      - db
+    image: nextcloud
+    volumes:  
+      - ./data/cloud/config:/var/www/html/config  
+      - ./data/cloud/data:/var/www/html/data  
+      - ./data/cloud/apps:/var/www/html/apps  
+    links:  
+      - db
+    ports:  
+      - "80:80"  # 前一个80是宿主机也就是阿里云主机对外的端口号，需注意阿里云主机安全组规则是否开放了这个端口。
+    restart: always  
+  cron:  
+    container_name: cloud_cron  
+    image: nextcloud  
+    links:  
+      - db  
+    volumes_from:  
+      - app  
+    user: www-data  
+    entrypoint: |  
+      bash -c 'bash -s <<EOF  
+      trap "break;exit" SIGHUP SIGINT SIGTERM  
+      while /bin/true; do  
+        /usr/local/bin/php /var/www/html/cron.php  
+        sleep 900  
+      done  
+      EOF'  
+    restart: always  
+networks:  
+  default:  
+    external:  
+      name: nextcloud

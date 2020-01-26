@@ -13,7 +13,7 @@ yum -y install java-1.8.0-openjdk java-1.8.0-openjdk-devel
 ```
 vi  /etc/profile  #修改环境变量
 #环境配置
-export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.222.b10-1.el7_7.x86_64
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.232.b09-0.el7_7.x86_64
 export CLASSPATH=.:$JAVA_HOME/jre/lib/rt.jar:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 export PATH=$PATH:$JAVA_HOME/bin
 
@@ -25,6 +25,8 @@ source /etc/profile #让环境立即生效
 #openjdk version "1.8.0_222"
 #OpenJDK Runtime Environment (build 1.8.0_222-b10)
 #OpenJDK 64-Bit Server VM (build 25.222-b10, mixed mode)
+
+
 
 ### 3、tomcat 下载
 
